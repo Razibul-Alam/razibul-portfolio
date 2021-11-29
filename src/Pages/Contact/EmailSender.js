@@ -31,11 +31,11 @@ export const EmailSender = () => {
       <div className='col-6 m-auto'>
       <Form ref={form} onSubmit={sendEmail}>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
-      <Form.Label>Email address</Form.Label>
+      <Form.Label>Email</Form.Label>
       <Form.Control type="email" name="user_email" placeholder="name@example.com" />
     </Form.Group>
     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-      <Form.Label>Example textarea</Form.Label>
+      <Form.Label>Message</Form.Label>
       <Form.Control as="textarea" name="message"  rows={3} />
     </Form.Group>
     <input type="submit" value="Send" />

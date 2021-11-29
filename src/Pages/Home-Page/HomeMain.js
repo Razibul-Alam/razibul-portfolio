@@ -12,6 +12,7 @@ import {Helmet} from 'react-helmet'
 import Footer from './../Footer/Footer';
 import HomeBannerLeft from './Home-Banner/HomeBannerLeft';
 import particles from './Home-Banner/ParticleItem';
+import SocialIcon from './../Social-Icon/SocialIcon';
 
 
 const HomeMain = () => {
@@ -19,8 +20,8 @@ const HomeMain = () => {
         <div>
          <Helmet>
                   <meta charSet="utf-8" />
-                  <title>Home | Motasim Foad</title>
-                  <link rel="canonical" href="http://motasimfoad.com/home" />
+                  <title>Home | Razibul</title>
+                  <link rel="canonical" href="/" />
                   <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
          </Helmet>
           <Animate to="1" from="0" attributeName="opacity">
@@ -34,7 +35,8 @@ const HomeMain = () => {
               <Col  xl={12}  className="App-left">
                 <HomeBannerLeft />
               </Col>
-            </Row>
+              <SocialIcon/>  
+            </Row>   
             <Row className="App-footer">
               <Footer />
             </Row>

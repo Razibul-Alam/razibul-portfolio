@@ -1,17 +1,19 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomeMain from './Pages/Home-Page/HomeMain';
 import Header from './Pages/Header/Header';
-import { EmailSender } from './Pages/Contact/EmailSender';
+import ContactMain from './Pages/Contact/ContactMain';
+import AllProject from './Pages/Projects/AllProject';
 
 
 function App() {
   return (
     <div>
       <Router>
-        <Header/>
+        {/* <Header/> */}
         <Routes>
           <Route path='/' element={<HomeMain/>}/>
-          <Route path='/contact' element={<EmailSender/>}/>
+          <Route path='/contact' element={<ContactMain/>}/>
+          <Route path='/projects' element={<AllProject/>}/>
         </Routes>
       </Router>
       

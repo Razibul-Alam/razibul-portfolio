@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card,Button } from 'react-bootstrap';
+import { Card,Button,Badge } from 'react-bootstrap';
 
 const ProjectDetails = ({details}) => {
     return (
@@ -12,8 +12,13 @@ const ProjectDetails = ({details}) => {
     <Card.Text>
      {details?.features?.map(item=><li>{item}</li>)}
     </Card.Text>
+    <Card.Subtitle className="mb-2 text-danger">Technology</Card.Subtitle>
     <Card.Text>
-     
+    <Badge bg="primary">React</Badge>
+    <Badge bg="primary" className='ms-3'>Node</Badge>
+    <Badge bg="primary" className='ms-3'>Express</Badge>
+    <Badge bg="primary" className='ms-3'>Mongodb</Badge>
+    <Badge bg="primary" className='ms-3'>Firebase</Badge>
     </Card.Text>
     <Button variant="outline-dark" size="lg" className=""><a style={{ textDecoration: 'none', color: 'black' }} href={details?.live} target="_blank" className="home-left-aboutme">Live-Site</a></Button>
     {/* <Card.Link href="#">Card Link</Card.Link> */}

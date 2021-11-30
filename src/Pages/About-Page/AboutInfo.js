@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutInfo = () => {
     return (
-        <div>
+        <div className='text-light'>
             <h2 className='text-center'>About me</h2>
-            <hr className=' text-danger bolder w-25 m-auto'/>
+            <hr className=' text-light bolder w-25 m-auto'/>
             <div>
                 <p className='text-center mt-4'>
             I am a <strong>Junior fullstack web developer</strong>.<br/>I am comfortable with react. I builted about 5 medium react applications. <br/> Also more than 10 small react applications.

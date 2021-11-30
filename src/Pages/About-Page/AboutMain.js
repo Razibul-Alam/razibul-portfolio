@@ -4,8 +4,8 @@ import AboutInfo from './AboutInfo';
 
 const AboutMain = () => {
     return (
-        <div className='container'>
-        <div className='row my-5'>  
+        <div className='bg-dark'>
+        <div className='row'>  
             <AboutInfo/>   
         <AboutAccordion/>    
         </div>

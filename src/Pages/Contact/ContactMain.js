@@ -27,7 +27,7 @@ const ContactMain = () => {
             <ContactText />
             </Col>
             <Col  xl={6}  className="Contact-right">
-              <EmailSender />
+           <EmailSender />
             </Col>
             </Row>
             <Row className="Contact-footer">

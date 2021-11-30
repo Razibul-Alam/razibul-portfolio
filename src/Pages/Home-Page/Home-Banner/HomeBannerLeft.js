@@ -9,9 +9,9 @@ const HomeBannerLeft = () => {
         <Container className="home-left" >
         <Row className="home-left-main">
            <Col xl={12} className="home-left-main-col">
-             <h1 className="first-line">
+             <h3 className="mt-4">
                Hello! 
-             </h1>
+             </h3>
              <h2 className="second_line">
                I am <strong>Md Razibul</strong>
              </h2>

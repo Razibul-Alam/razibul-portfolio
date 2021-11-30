@@ -12,6 +12,9 @@ const ProjectDetails = ({details}) => {
     <Card.Text>
      {details?.features?.map(item=><li>{item}</li>)}
     </Card.Text>
+    <Card.Text>
+     
+    </Card.Text>
     <Button variant="outline-dark" size="lg" className=""><a style={{ textDecoration: 'none', color: 'black' }} href={details?.live} target="_blank" className="home-left-aboutme">Live-Site</a></Button>
     {/* <Card.Link href="#">Card Link</Card.Link> */}
    <Button variant="outline-dark" className="ms-4" size="lg"><a style={{ textDecoration: 'none', color: 'black' }} href={details?.code} target="_blank" >Code</a></Button>

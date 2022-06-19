@@ -23,7 +23,7 @@ const questionAndAns=[
 const AboutAccordion = () => {
     return (
         <>
-        <h5 className='text-center text-primary mb-3 mt-4'>Ask Something</h5>
+        <h5 className='text-center text-primary mb-3 mt-5'>Ask Something</h5>
         <div className='container mb-3 w-75 shadow'>
 
             <Accordion defaultActiveKey="0" flush>

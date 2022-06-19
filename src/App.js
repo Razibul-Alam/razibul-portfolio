@@ -9,7 +9,6 @@ import About from './Pages/About-Page/AboutMain';
 
 
 
-
 function App() {
   return (
     <div>
@@ -17,6 +16,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path='/' element={<HomeMain/>}/>
+          <Route path='/home' element={<HomeMain/>}/>
           <Route path='/contact' element={<ContactMain/>}/>
           <Route path='/projects' element={<AllProject/>}/>
           <Route path='/blog' element={<Blogs/>}/>

@@ -14,7 +14,7 @@ const AllProject = () => {
     return (
         <>
         <div className='my-5'>
-        <h2 className='text-center text-success'>All Projects</h2>
+        <h2 className='text-center text-success'>Top Projects</h2>
         <hr className='m-auto text-primary w-25'/>
         </div>
         <div className='container'>

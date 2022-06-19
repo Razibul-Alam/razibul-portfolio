@@ -24,3 +24,6 @@
   .About-footer {
     min-height: 5vh;
   }
+  .info{
+    font-family: 'Roboto Mono', monospace !important;
+  }

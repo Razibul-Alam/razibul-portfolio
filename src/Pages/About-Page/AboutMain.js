@@ -4,7 +4,7 @@ import AboutInfo from './AboutInfo';
 
 const AboutMain = () => {
     return (
-        <div className='bg-dark'>
+        <div className='bg-dark mt-5'>
         <div className='row'>  
             <AboutInfo/>   
         <AboutAccordion/>    

@@ -13,7 +13,7 @@ const SingleProject = ({project}) => {
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <div className="d-flex justify-content-between align-items-center">
-            <a style={{ color: 'black' }} href={live} target="_blank">Live-Site</a>
+            <a style={{ color: 'red' }} href={live} target="_blank">Live-Site</a>
             <Link to={`/project/${id}`}>Details</Link>
             </div>
           </Card.Body>

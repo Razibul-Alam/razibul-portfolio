@@ -30,7 +30,7 @@ const particles = {
          "random": true,
          "anim": {
            "enable": false,
-           "speed": 1,
+           "speed": 0.7,
            "opacity_min": 0.1,
            "sync": false
          }
@@ -40,7 +40,7 @@ const particles = {
          "random": true,
          "anim": {
            "enable": false,
-           "speed": 40,
+           "speed": 20,
            "size_min": 0.1,
            "sync": false
          }

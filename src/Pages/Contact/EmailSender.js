@@ -18,18 +18,13 @@ export const EmailSender = () => {
   };
 
   return (
-    // <form ref={form} onSubmit={sendEmail}>
-    //   <label>Name</label>
-    //   <input type="text" name="user_name" />
-    //   <label>Email</label>
-    //   <input type="email" name="user_email" />
-    //   <label>Message</label>
-    //   <textarea name="message" />
-    //   <input type="submit" value="Send" />
-    // </form>
     <div className='row mt-5'>
       <div className='col-6 m-auto'>
       <Form ref={form} onSubmit={sendEmail}>
+    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
+      <Form.Label>Name</Form.Label>
+      <Form.Control type="Text" name="user_email" placeholder="Name" />
+    </Form.Group>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
       <Form.Label>Email</Form.Label>
       <Form.Control type="email" name="user_email" placeholder="name@example.com" />

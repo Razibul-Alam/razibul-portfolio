@@ -13,6 +13,10 @@ import Footer from './../Footer/Footer';
 import HomeBannerLeft from './Home-Banner/HomeBannerLeft';
 import particles from './Home-Banner/ParticleItem';
 import SocialIcon from './../Social-Icon/SocialIcon';
+import AllProject from './../Projects/AllProject';
+import ContactMain from './../Contact/ContactMain';
+import AboutMain from './../About-Page/AboutMain';
+import { HashLink } from 'react-router-hash-link';
 
 
 const HomeMain = () => {
@@ -24,24 +28,36 @@ const HomeMain = () => {
                   <link rel="canonical" href="/" />
                   <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
          </Helmet>
-          <Animate to="1" from="0" attributeName="opacity">
+          {/* <Animate to="1" from="0" attributeName="opacity"> */}
             {/* <Particles
             params={particles}
             className="particle"
             /> */}
            
-          <Container className="App-header" fluid={true}>
+          <Container className="App-header" fluid={false}>
             <Row className="App-main">
               <Col  xl={12}  className="App-left">
                 <HomeBannerLeft />
               </Col>
-              <SocialIcon/>  
-            </Row>   
-            <Row className="App-footer">
+              </Row>   
+              
+                <AllProject/>
+              
+             
+               <HashLink smooth to={'/home#about'}>
+               <AboutMain/>
+               </HashLink>
+              
+              
+                <ContactMain/>
+             
+              {/* <SocialIcon/>   */}
+           
+            {/* <Row className="App-footer">
               <Footer />
-            </Row>
+            </Row> */}
         </Container>
-        </Animate>
+        {/* </Animate> */}
       </div>
     );
 };

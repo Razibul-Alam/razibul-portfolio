@@ -3,11 +3,17 @@ import { Container,Button,Col,Row} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './HomeBanner.css'
 import ReactTypingEffect from 'react-typing-effect';
-
+import Particles from "react-tsparticles";
+import particles from './ParticleItem';
 const HomeBannerLeft = () => {
     return (
         <Container className="home-left" >
+         
         <Row className="home-left-main">
+        {/* <Particles
+            params={particles}
+            className="particle"
+            /> */}
            <Col xl={12} className="home-left-main-col">
              <h3 className="mt-4">
                Hello! 
@@ -26,7 +32,7 @@ const HomeBannerLeft = () => {
               
                <br />
                <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/projects" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">Projects</Link></Button> &nbsp;
-               <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/file/d/1NP-3YCLaxZaV5eNOVAEsH_k8KglsoIFL/view?ts=61a2f133" target="_blank" className="home-left-aboutme">Resume</a></Button> &nbsp;
+               <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><a style={{ textDecoration: 'none', color: 'white' }} href="" target="_blank" className="home-left-aboutme">Resume</a></Button> &nbsp;
                <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn">
                <a style={{ textDecoration: 'none', color: 'white' }} href="https://www.linkedin.com/in/md-razibul-alam-a6b238212/" target="_blank" className="home-left-aboutme">Hire me</a></Button> 
              </Col>

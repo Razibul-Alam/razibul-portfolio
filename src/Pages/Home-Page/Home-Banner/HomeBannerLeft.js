@@ -15,11 +15,11 @@ const HomeBannerLeft = () => {
             className="particle"
             /> */}
            <Col xl={12} className="home-left-main-col">
-             <h3 className="mt-4">
+             {/* <h3 className="mt-4">
                Hello! 
-             </h3>
+             </h3> */}
              <h2 className="second_line">
-               I am <strong>Md Razibul</strong>
+              <strong>Md Razibul</strong>
              </h2>
              <h3>
              <ReactTypingEffect
@@ -31,7 +31,7 @@ const HomeBannerLeft = () => {
              </h3>
               
                <br />
-               <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/projects" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">Projects</Link></Button> &nbsp;
+               <Button variant="outline-dark" size="lg" className="home-left-aboutmme-btn"><Link to="/projects" style={{ textDecoration: 'none', color: 'black' }} className="home-left-aboutme">Projects</Link></Button> &nbsp;
                <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><a style={{ textDecoration: 'none', color: 'white' }} href="" target="_blank" className="home-left-aboutme">Resume</a></Button> &nbsp;
                <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn">
                <a style={{ textDecoration: 'none', color: 'white' }} href="https://www.linkedin.com/in/md-razibul-alam-a6b238212/" target="_blank" className="home-left-aboutme">Hire me</a></Button> 

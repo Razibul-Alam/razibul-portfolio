@@ -1,3 +1,7 @@
 a{
     color:#ffffff !important;
 }
+
+.custom-nav{
+    position: sticky !important;
+}

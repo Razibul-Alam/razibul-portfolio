@@ -46,6 +46,11 @@
     color: black;
  }
 
+ .home-left-aboutmme-btn{
+    color: black !important;
+    padding: 10px 40px !important;
+ }
+
 .home-left-aboutmme-btn:hover{
      background: #666666;
  }

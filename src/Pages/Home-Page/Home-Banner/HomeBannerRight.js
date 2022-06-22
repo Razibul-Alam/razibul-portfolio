@@ -11,7 +11,7 @@ const HomeBannerRight = () => {
         <Row className="home-right-main">
           <Col xl={12}>
             <br />
-            <Image src={''} className="home-right-main-img" alt="Image of Motasim Foad"/>
+            <Image src={''} className="home-right-main-img" alt="Image of Razibul"/>
           </Col>
           {/* <Row className="home-right-footer" >
             <SocialIcons />

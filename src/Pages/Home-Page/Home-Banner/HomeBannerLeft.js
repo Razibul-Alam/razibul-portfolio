@@ -31,10 +31,7 @@ const HomeBannerLeft = () => {
              </h3>
               
                <br />
-               <Button variant="outline-dark" size="lg" className="home-left-aboutmme-btn"><Link to="/projects" style={{ textDecoration: 'none', color: 'black' }} className="home-left-aboutme">Projects</Link></Button> &nbsp;
-               <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><a style={{ textDecoration: 'none', color: 'white' }} href="" target="_blank" className="home-left-aboutme">Resume</a></Button> &nbsp;
-               <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn">
-               <a style={{ textDecoration: 'none', color: 'white' }} href="https://www.linkedin.com/in/md-razibul-alam-a6b238212/" target="_blank" className="home-left-aboutme">Hire me</a></Button> 
+               <Button variant="outline-dark" className='bg-dark home-left-aboutmme-btn' size="lg"><Link to="/projects" style={{ textDecoration: 'none', color: 'black' }} className="">Projects</Link></Button>  
              </Col>
          </Row>
        </Container>

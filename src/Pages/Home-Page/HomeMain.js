@@ -15,7 +15,6 @@ import particles from './Home-Banner/ParticleItem';
 import SocialIcon from './../Social-Icon/SocialIcon';
 import AllProject from './../Projects/AllProject';
 import ContactMain from './../Contact/ContactMain';
-import AboutMain from './../About-Page/AboutMain';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -45,7 +44,7 @@ const HomeMain = () => {
               
              
                <HashLink smooth to={'/home#about'}>
-               <AboutMain/>
+               {/* <AboutMain/> */}
                </HashLink>
               
               

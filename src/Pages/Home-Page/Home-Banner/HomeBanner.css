@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .home-left{
-    height: 100%;
-    z-index: 5;
+    /* height: 100%; */
+    /* z-index: 5; */
  }
 
 .home-left-main{

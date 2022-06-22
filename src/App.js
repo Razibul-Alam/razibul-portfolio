@@ -5,9 +5,6 @@ import ContactMain from './Pages/Contact/ContactMain';
 import AllProject from './Pages/Projects/AllProject';
 import IndividualDetails from './Pages/DetailsPage/IndividualDetails';
 import Blogs from './Pages/Blogs/Blogs';
-
-
-
 function App() {
   return (
     <div>

@@ -3,6 +3,7 @@
 .home-left{
     /* height: 100%; */
     /* z-index: 5; */
+    /* color: #ffffff !important; */
  }
 
 .home-left-main{
@@ -12,7 +13,8 @@
 
 .home-left-main-col{
     margin: auto;    
-    display: block;
+    /* display: block; */
+    color: #ffffff !important;
 }
 
 .first-line{
@@ -33,13 +35,13 @@
     font-family: 'Roboto Mono', monospace !important;
 }
 
-.home-left-aboutme-main{
+/* .home-left-aboutme-main{
     position: relative;
     z-index: -1;
-}
+} */
 
 .home-left-aboutme{
-   color: rgb(13, 13, 13);
+   color: #121111;
 }
 
 .home-left-aboutme:hover{
@@ -47,10 +49,11 @@
  }
 
  .home-left-aboutmme-btn{
-    color: black !important;
+    /* color: black !important; */
     padding: 10px 40px !important;
  }
 
 .home-left-aboutmme-btn:hover{
-     background: #666666;
+     background: #ffffff;
+     color: #121111 !important;
  }

@@ -16,6 +16,7 @@ import SocialIcon from './../Social-Icon/SocialIcon';
 import AllProject from './../Projects/AllProject';
 import ContactMain from './../Contact/ContactMain';
 import { HashLink } from 'react-router-hash-link';
+import AboutMain from '../About-Section/AboutMain';
 
 
 const HomeMain = () => {
@@ -32,13 +33,14 @@ const HomeMain = () => {
             params={particles}
             className="particle"
             /> */}
-           
-          <Container className="App-header" fluid={false}>
-            <Row className="App-main">
+             <Row className="App-main">
               <Col  xl={12}  className="App-left">
                 <HomeBannerLeft />
               </Col>
-              </Row>   
+              </Row> 
+          <Container className="App-header" fluid={false}>
+            <AboutMain/>
+            
               
                 <AllProject/>
               
@@ -48,7 +50,7 @@ const HomeMain = () => {
                </HashLink>
               
               
-                <ContactMain/>
+                
              
               {/* <SocialIcon/>   */}
            
@@ -56,6 +58,7 @@ const HomeMain = () => {
               <Footer />
             </Row> */}
         </Container>
+        <ContactMain/>
         {/* </Animate> */}
       </div>
     );

@@ -7,7 +7,7 @@ import Particles from "react-tsparticles";
 import particles from './ParticleItem';
 const HomeBannerLeft = () => {
     return (
-        <Container className="home-left" >
+        <div className="home-left bg-dark pb-5" >
          
         <Row className="home-left-main">
         {/* <Particles
@@ -31,10 +31,10 @@ const HomeBannerLeft = () => {
              </h3>
               
                <br />
-               <Button variant="outline-dark" className='bg-dark home-left-aboutmme-btn' size="lg"><Link to="/projects" style={{ textDecoration: 'none', color: 'black' }} className="">Projects</Link></Button>  
+               <Button variant="outline-light" className='home-left-aboutmme-btn' size="lg"><Link to="/projects" style={{ textDecoration: 'none', color: '' }} className="">Projects</Link></Button>  
              </Col>
          </Row>
-       </Container>
+       </div>
     );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomeMain.css'
+import Fade from 'react-reveal/Fade';
 import {
   Container,
   Row,
@@ -58,7 +59,9 @@ const HomeMain = () => {
               <Footer />
             </Row> */}
         </Container>
+        <Fade left>
         <ContactMain/>
+        </Fade>
         {/* </Animate> */}
       </div>
     );

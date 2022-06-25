@@ -9,7 +9,7 @@ const AboutMain = () => {
       <Row>
         <Col>
         <div>
-            <img src="https://th.bing.com/th/id/OIP.Xq-LG79iLNZLSCt6RmT6OwHaE8?pid=ImgDet&rs=1" alt="" srcset="" className='img-fluid' />
+            <img src="https://th.bing.com/th/id/OIP.Xq-LG79iLNZLSCt6RmT6OwHaE8?pid=ImgDet&rs=1" alt="not found" srcset="" className='img-fluid' />
         </div>
         </Col>
         <Col>

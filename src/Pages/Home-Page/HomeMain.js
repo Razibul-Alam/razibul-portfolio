@@ -34,11 +34,12 @@ const HomeMain = () => {
             params={particles}
             className="particle"
             /> */}
-             <Row className="App-main">
-              <Col  xl={12}  className="App-left">
-                <HomeBannerLeft />
-              </Col>
-              </Row> 
+             {/* <Row className="App-main"> */}
+              {/* <Col  xl={12}  className="App-left"> */}
+                
+              {/* </Col> */}
+              {/* </Row>  */}
+              <HomeBannerLeft/>
           <Container className="App-header" fluid={false}>
             <AboutMain/>
             

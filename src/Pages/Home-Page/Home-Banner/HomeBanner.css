@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .home-left{
-    /* height: 100%; */
-    /* z-index: 5; */
-    /* color: #ffffff !important; */
+    height: 100%; 
+    z-index: 5;
+    color: #ffffff !important;
  }
 
 .home-left-main{
@@ -12,9 +12,9 @@
 }
 
 .home-left-main-col{
-    margin: auto;    
+    /* margin: auto;     */
     /* display: block; */
-    color: #ffffff !important;
+    color: #ffffff!important;
 }
 
 .first-line{
@@ -25,6 +25,7 @@
 
 .second_line{
     font-size: 3rem;
+    color: #ffffff;
     /* font-family: 'Julius Sans One', sans-serif; */
     font-family: 'Roboto Mono', monospace !important;
 }
@@ -35,10 +36,10 @@
     font-family: 'Roboto Mono', monospace !important;
 }
 
-/* .home-left-aboutme-main{
+.home-left-aboutme-main{
     position: relative;
     z-index: -1;
-} */
+}
 
 .home-left-aboutme{
    color: #121111;
@@ -53,7 +54,7 @@
     padding: 10px 40px !important;
  }
 
-.home-left-aboutmme-btn:hover{
+/* .home-left-aboutmme-btn:hover{
      background: #ffffff;
-     color: #121111 !important;
- }
+     color: #121111 !;
+ } */

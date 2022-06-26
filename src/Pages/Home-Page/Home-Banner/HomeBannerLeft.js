@@ -9,7 +9,7 @@ const HomeBannerLeft = () => {
     return (
         <div className="home-left bg-dark pb-5" >
          
-        <Row className="home-left-main">
+        <Row className="home-left-main text-light">
         {/* <Particles
             params={particles}
             className="particle"
@@ -21,7 +21,7 @@ const HomeBannerLeft = () => {
              <h2 className="second_line">
               <strong>Md Razibul</strong>
              </h2>
-             <h3>
+             <h3 className='text-light'>
              <ReactTypingEffect
                text="React-developer || Junior-fullstack-developer ... "
                className="typical"
@@ -30,7 +30,7 @@ const HomeBannerLeft = () => {
                />
              </h3>
               
-               <br />
+               
                <Button variant="outline-light" className='home-left-aboutmme-btn' size="lg"><Link to="/projects" style={{ textDecoration: 'none', color: '' }} className="">Projects</Link></Button>  
              </Col>
          </Row>

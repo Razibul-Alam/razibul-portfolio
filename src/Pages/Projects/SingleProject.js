@@ -4,6 +4,7 @@ import {Button,Col} from 'react-bootstrap'
 import { Avatar, Card } from 'antd';
 import { Link, NavLink } from 'react-router-dom';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import './SingleProject.css'
 
 const { Meta } = Card;
 const SingleProject = ({project}) => {
@@ -24,7 +25,7 @@ const SingleProject = ({project}) => {
           
         </Card> */}
 
-<Card
+<Card className='custom-card'
     style={{
       width: 300,
     }}
@@ -34,15 +35,15 @@ const SingleProject = ({project}) => {
         src={img}
       />
     }
-    actions={[
-      <SettingOutlined key="setting" />,
-      <EditOutlined key="edit" />,
-      <EllipsisOutlined key="ellipsis" />,
-    ]}
+    // actions={[
+    //   <SettingOutlined key="setting" />,
+    //   <EditOutlined key="edit" />,
+    //   <EllipsisOutlined key="ellipsis" />,
+    // ]}
   >
     <Meta
       // avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-      title={title}
+      // title={title}
     />
   </Card>
       </Col>

@@ -4,12 +4,8 @@ import AllProject from './AllProject';
 
 const tabListNoTitle = [
   {
-    key: 'FullStack',
-    tab: 'FullStack',
-  },
-  {
-    key: 'Frontend',
-    tab: 'Frontend',
+    key: 'All',
+    tab: 'All',
   },
   {
     key: 'Chart',
@@ -21,8 +17,11 @@ const tabListNoTitle = [
   }
 ];
 const contentListNoTitle = {
-  FullStack: <AllProject/>,
-  Frontend: <p>Frontend content</p>,
+  All:<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a accusamus dolorum? Porro enim quo quis praesentium quos, ea quas.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis delectus nemo asperiores cumque blanditiis quo ab deserunt rem modi?</p>
+    </div>
+  ,
   Chart: <p>Chart content</p>,
   Portfolio:<h3>My-Portfolio</h3>,
 };

@@ -19,6 +19,7 @@ import ContactMain from './../Contact/ContactMain';
 import { HashLink } from 'react-router-hash-link';
 import AboutMain from '../About-Section/AboutMain';
 import StyleCard from './../Projects/StyleCard';
+import Blogs from './../Blogs/Blogs';
 
 
 const HomeMain = () => {
@@ -44,6 +45,7 @@ const HomeMain = () => {
           <Container className="App-header" fluid={false}>
             <AboutMain/>   
                 <AllProject/>
+                <Blogs/>
                <HashLink smooth to={'/home#about'}>
                {/* <AboutMain/> */}
                </HashLink>

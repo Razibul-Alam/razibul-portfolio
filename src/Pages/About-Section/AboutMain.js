@@ -5,8 +5,8 @@ import './About.css'
 
 const AboutMain = () => {
     return (
-        <div>
-             <Container className='my-5 py-5 about-custom'>
+        <div id='about' className='about-custom'>
+             <Container className='py-5'>
       <Row>
         <Col sm={12} md={6}>
         <div className=''>

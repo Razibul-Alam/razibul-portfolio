@@ -1,5 +1,9 @@
 .about-custom{
-    background-color:#ffffff;
-    
+    /* background-color:#ffffff; */
+    background-image:url('https://img.freepik.com/free-vector/data-visualization-dynamic-wave-pattern-vector_53876-43475.jpg?size=338&ext=jpg&ga=GA1.2.89633880.1627178886');
+    background-size:'cover';
+    background-repeat:'no-repeat'!important;
+    background-position:'right';
+    border:'2px solid black'
 }
 

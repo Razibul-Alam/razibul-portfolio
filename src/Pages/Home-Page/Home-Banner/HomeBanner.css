@@ -40,9 +40,9 @@
     z-index: -1;
 }
 
-.home-left-aboutme{
+/* .home-left-aboutme{
    color: #121111;
-}
+} */
 
 .home-left-aboutme:hover{
     color: black;
@@ -53,7 +53,7 @@
     padding: 10px 40px !important;
  }
 
-/* .home-left-aboutmme-btn:hover{
+.home-left-aboutmme-btn:hover{
      background: #ffffff;
-     color: #121111 !;
- } */
+     color: #dddddd !important;
+ }

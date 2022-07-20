@@ -1,16 +1,16 @@
 import React from 'react';
 import {useParams} from 'react-router';
-import {Button,Col} from 'react-bootstrap'
+import {Button,Col,Carousel} from 'react-bootstrap'
 import { Avatar, Card } from 'antd';
 import { Link, NavLink } from 'react-router-dom';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import {GithubOutlined,EyeOutlined,ChromeOutlined } from '@ant-design/icons';
 import './SingleProject.css'
 
 const { Meta } = Card;
 const SingleProject = ({project}) => {
-    const{title,img,live,id}=project;
+    const{title,img,live,id,img1,img2,img3,code}=project;
     const{number}=useParams()
-    console.log(number)
+    
     return (
         <Col>
 <Card className='custom-card'
@@ -18,20 +18,38 @@ const SingleProject = ({project}) => {
       width: 300,
     }}
     cover={
-      <img
-        alt="example"
-        src={img}
-      />
+      <Carousel>
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block w-100"
+          src={img1}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block w-100"
+          src={img2}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block w-100"
+          src={img3}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
     }
-    // actions={[
-    //   <SettingOutlined key="setting" />,
-    //   <EditOutlined key="edit" />,
-    //   <EllipsisOutlined key="ellipsis" />,
-    // ]}
+    actions={[
+      <a className='text-dark' href={live} target="_blank" rel="noopener noreferrer"><ChromeOutlined /></a>,
+      <a className='text-dark' href={code} target="_blank" rel="noopener noreferrer"><GithubOutlined/></a>,
+      <Link to={`/project/${id}`} className='text-dark'><EyeOutlined/></Link>,
+    ]}
   >
     <Meta
-      // avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-      // title={title}
+      title={title}
     />
   </Card>
       </Col>

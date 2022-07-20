@@ -7,7 +7,7 @@ import Particles from "react-tsparticles";
 import particles from './ParticleItem';
 const HomeBannerLeft = () => {
     return (
-        <div className="home-left bg-dark p-3" > 
+        <div className="home-left p-3" > 
         {/* <Particles
             params={particles}
             className="particle"

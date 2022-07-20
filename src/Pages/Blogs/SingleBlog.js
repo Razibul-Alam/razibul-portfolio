@@ -2,7 +2,7 @@ import React from 'react';
 import {Card,Col} from 'react-bootstrap'
 
 const SingleBlog = ({blog}) => {
-    const{title,img,author}=blog;
+    const{title,img,link}=blog;
     return (
         <div className='col-md-4'>
               <Card>
@@ -18,7 +18,7 @@ const SingleBlog = ({blog}) => {
               {title}{' '}
             </p>
             <footer className="blockquote-footer">
-              <cite title="Source Title">{author}</cite>
+              <cite title="Source Title"><a href={link} target="_blank" rel="noopener noreferrer" className='text-dark'>Read</a></cite>
             </footer>
           </blockquote>
         </Card.Body>

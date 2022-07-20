@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 
 const ContactMain = () => {
     return (
-        <div>
+        <div id='contact'>
         {/* <Animate to="1" from="0" attributeName="opacity"> */}
           {/* <Particles
             params={particles}

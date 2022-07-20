@@ -51,12 +51,8 @@ const AllProject = () => {
             </>,
           };
     return (
-        // <>
-        // {projects.map(project=><SingleProject project={project}/>)}
-        
-        // </>
         <>
-        <div className='my-5'>
+        <div className='my-5' id='portfolio'>
         <h2 className='text-center text-success'>My Portfolio</h2>
         <hr className='m-auto text-primary w-25'/>
         </div>

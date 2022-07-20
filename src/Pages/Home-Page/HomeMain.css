@@ -4,9 +4,11 @@
     color: rgb(3, 3, 3);
   }
   
-/* .App-main {
-    min-height: 95vh; 
-  } */
+.App-main {
+    /* min-height: 95vh;  */
+     /* display: flex; */
+    align-items: center; 
+  }
 
 .App-footer {
     min-height: 5vh; 

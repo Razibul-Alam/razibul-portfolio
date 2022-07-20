@@ -13,18 +13,6 @@ const SingleProject = ({project}) => {
     console.log(number)
     return (
         <Col>
-        {/* <Card>
-          <Card.Img variant="top" src={img} />
-          <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <div className="d-flex justify-content-between align-items-center">
-            <a style={{ color: 'red' }} href={live} target="_blank">Live-Site</a>
-            <Link to={`/project/${id}`}>Details</Link>
-            </div>
-          </Card.Body>
-          
-        </Card> */}
-
 <Card className='custom-card'
     style={{
       width: 300,

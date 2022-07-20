@@ -8,12 +8,12 @@ const AboutMain = () => {
         <div>
              <Container className='my-5 py-5 about-custom'>
       <Row>
-        <Col>
+        <Col sm={12} md={6}>
         <div className=''>
             <img src="https://th.bing.com/th/id/OIP.Xq-LG79iLNZLSCt6RmT6OwHaE8?pid=ImgDet&rs=1" alt="not found" srcset="" className='img-fluid rounded' />
         </div>
         </Col>
-        <Col>
+        <Col sm={12} md={6}>
         <div>
             <h4>About Me</h4>
             <h2 className='bolder'>Creative Independent Web Developer based in Bangladesh</h2>

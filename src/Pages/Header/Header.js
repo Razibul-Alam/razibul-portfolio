@@ -6,6 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
+      <Container fluid="md">
         <Navbar className='custom-nav' collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand href="#home">Md Razibul</Navbar.Brand>
@@ -23,6 +24,7 @@ const Header = () => {
   </Navbar.Collapse>
   </Container>
 </Navbar>
+</Container>
     );
 };
 

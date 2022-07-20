@@ -20,30 +20,30 @@ import { HashLink } from 'react-router-hash-link';
 import AboutMain from '../About-Section/AboutMain';
 import StyleCard from './../Projects/StyleCard';
 import Blogs from './../Blogs/Blogs';
+import Services from './../Services/Services';
+import HomeBannerRight from './Home-Banner/HomeBannerRight';
 
 
 const HomeMain = () => {
     return (
-        <div>
-         <Helmet>
-                  <meta charSet="utf-8" />
-                  <title>Home | Razibul</title>
-                  <link rel="canonical" href="/" />
-                  <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
-         </Helmet>
+        <div style={{backgroundColor:''}} className='container'>
           {/* <Animate to="1" from="0" attributeName="opacity"> */}
             {/* <Particles
             params={particles}
             className="particle"
             /> */}
-             {/* <Row className="App-main"> */}
-              {/* <Col  xl={12}  className="App-left"> */}
-                
-              {/* </Col> */}
-              {/* </Row>  */}
+             <div className="App-main row">
+              <div className="App-left col-md-6 col-sm-12">
               <HomeBannerLeft/>
+              </div>
+              <div className="App-left col-md-6 col-sm-12">
+              <HomeBannerRight/>
+              </div>
+               </div> 
+              
           <Container className="App-header" fluid={false}>
             <AboutMain/>   
+            <Services/>
                 <AllProject/>
                 <Blogs/>
                <HashLink smooth to={'/home#about'}>

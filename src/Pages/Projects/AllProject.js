@@ -34,7 +34,7 @@ const AllProject = () => {
 
           const contentListNoTitle = {
             All:<>
-            <Row sx={4} g-4>
+            <Row sx={4} className='g-4'>
             {projects.map(project=><SingleProject project={project}/>)}
             </Row>
             </>
@@ -56,7 +56,10 @@ const AllProject = () => {
         
         // </>
         <>
-        <h3>PORTFOLIO</h3>
+        <div className='my-5'>
+        <h2 className='text-center text-success'>My Portfolio</h2>
+        <hr className='m-auto text-primary w-25'/>
+        </div>
           <Card
             style={{
               width: '100%',

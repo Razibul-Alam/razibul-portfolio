@@ -6,13 +6,15 @@ import {Row} from 'react-bootstrap'
 const Blogs = () => {
     return (
         <>
-        <div className='my-5'>
-        <h2 className='text-center text-success'>What Tourist says</h2>
+        <div className='py-5'>
+        <div className='mb-5'>
+        <h2 className='text-center text-success'>Blogs</h2>
         <hr className='m-auto text-primary w-25'/>
         </div>
-        <Row sx={4}>
+        <div className='row g-4'>
             {blogData?.map(blog=><SingleBlog key={blog.id} blog={blog} />)}
-        </Row>
+        </div>
+        </div>
         </>
     );
 };

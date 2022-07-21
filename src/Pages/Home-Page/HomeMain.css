@@ -1,19 +1,9 @@
 .App-header {
-    background-color:#ffffff;
+    background-color:transparent;
     font-size: calc(10px + 2vmin);
     color: rgb(3, 3, 3);
   }
   
-.App-main {
-  /* background-image:url('https://img.freepik.com/free-vector/black-silk-latex-folded-cloth-background-textile_107791-1294.jpg');
-  background-size:'contain';
-  background-repeat:'no-repeat';
-  background-position:'center'; */
-    /* min-height: 95vh;  */
-     /* display: flex; */
-    /* align-items: center;  */
-    /* background-color: black; */
-  }
   .banner-holder{
     display:'flex';
     align-items:'center'

@@ -8,8 +8,8 @@ const Blogs = () => {
         <>
         <div className='py-5' id='blog'>
         <div className='mb-5'>
-        <h2 className='text-center text-success'>Blogs</h2>
-        <hr className='m-auto text-primary w-25'/>
+        <h2 className='text-center text-light'>Blogs</h2>
+        <hr className='m-auto text-light w-25'/>
         </div>
         <div className='row g-4'>
             {blogData?.map(blog=><SingleBlog key={blog.id} blog={blog} />)}

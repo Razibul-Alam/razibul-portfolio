@@ -53,8 +53,8 @@ const AllProject = () => {
     return (
         <>
         <div className='my-5' id='portfolio'>
-        <h2 className='text-center text-success'>My Portfolio</h2>
-        <hr className='m-auto text-primary w-25'/>
+        <h2 className='text-center text-light'>My Portfolio</h2>
+        <hr className='m-auto text-light w-25'/>
         </div>
           <Card
             style={{

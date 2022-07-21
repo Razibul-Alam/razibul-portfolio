@@ -8,10 +8,10 @@ const Services = () => {
     return (
         <>
         <div className='my-5' id='service'>
-        <h2 className='text-center text-success'>What I Provide</h2>
-        <hr className='m-auto text-primary w-25'/>
+        <h2 className='text-center text-light'>What I Provide</h2>
+        <hr className='m-auto text-light w-25'/>
         </div>
-        <div className='row g-4'>
+        <div className='row g-4 bg-transparent'>
             {serviceData.map(service=><SingleService service={service}/>)}
             </div>
             </>

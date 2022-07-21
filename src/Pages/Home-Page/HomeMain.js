@@ -66,9 +66,7 @@ const HomeMain = () => {
               <Footer />
             </Row> */}
         </Container>
-        <Fade left>
         <ContactMain/>
-        </Fade>
         {/* </Animate> */}
       </div>
     );

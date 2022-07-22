@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     return (
       <Container fluid>
-        <Navbar className='custom-nav py-3' collapseOnSelect expand="lg" bg="transperent" variant="">
+        <Navbar className='custom-nav pb-5' collapseOnSelect expand="lg" bg="transperent" variant="">
   <Container>
   <Navbar.Brand href="#home">Md Razibul</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />

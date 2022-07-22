@@ -22,7 +22,8 @@ import StyleCard from './../Projects/StyleCard';
 import Blogs from './../Blogs/Blogs';
 import Services from './../Services/Services';
 import HomeBannerRight from './Home-Banner/HomeBannerRight';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+import Feedback from '../Feedback/Feedback'
 
 
 const HomeMain = () => {
@@ -52,6 +53,7 @@ const HomeMain = () => {
             <AboutMain/>   
             <Services/>
                 <AllProject/>
+                <Feedback/>
                 <Blogs/>
                <HashLink smooth to={'/home#about'}>
                {/* <AboutMain/> */}

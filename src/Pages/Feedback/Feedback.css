@@ -1,0 +1,16 @@
+.common-h6{
+    color:  #e73c3e;
+}
+.common-h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 20px 0px;
+    line-height: 1.3em;
+}
+.common-p{
+    font-size: 20px;
+    margin-bottom:20px ;
+}
+.client-review{
+    background-color:#ffffff
+}

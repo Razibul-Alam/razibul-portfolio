@@ -38,10 +38,19 @@ const HomeMain = () => {
               <Header/>
               <div className='banner-holder container'>
              <div className="row">
-              <div className="App-left col-md-7 col-sm-12">
+              <div className="App-left col-md-7 col-sm-12"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out">
               <HomeBannerLeft/>
               </div>
-              <div className="App-left col-md-5 col-sm-12">
+              <div className="App-left col-md-5 col-sm-12" data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out">
               <HomeBannerRight/>
               </div>
                </div> 
@@ -51,25 +60,19 @@ const HomeMain = () => {
               
           <Container className="App-header" fluid={false}>
             <AboutMain/>   
+            
             <Services/>
+            <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
                 <AllProject/>
+                </div>
                 <Feedback/>
                 <Blogs/>
-               <HashLink smooth to={'/home#about'}>
-               {/* <AboutMain/> */}
-               </HashLink>
-              
-              
-                
-             
-              {/* <SocialIcon/>   */}
-           
-            {/* <Row className="App-footer">
-              <Footer />
-            </Row> */}
         </Container>
         <ContactMain/>
-        {/* </Animate> */}
       </div>
     );
 };

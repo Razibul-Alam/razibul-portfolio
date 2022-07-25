@@ -8,7 +8,11 @@ const SingleService = ({service}) => {
     return (
         <div className='col-md-4'>
         <Card>
-        <Card.Img variant="top" className='w-50 ms-2' src={img} />
+        <Card.Img variant="top" className='w-50 ms-2' src={img} data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="60"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <div className="d-flex justify-content-between align-items-center">

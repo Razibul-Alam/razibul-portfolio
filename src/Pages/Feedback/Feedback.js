@@ -4,7 +4,11 @@ import {Carousel} from 'react-bootstrap'
 const Feedback = () => {
     return (
         <>
-      <section className="client-review my-5 p-4 mt-5">
+      <section className="client-review my-5 p-4 mt-5" data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center ">

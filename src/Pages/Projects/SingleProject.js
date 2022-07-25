@@ -6,6 +6,7 @@ import { Link, NavLink } from 'react-router-dom';
 import {GithubOutlined,EyeOutlined,ChromeOutlined } from '@ant-design/icons';
 import './SingleProject.css'
 
+
 const { Meta } = Card;
 const SingleProject = ({project}) => {
     const{title,img,live,id,img1,img2,img3,code}=project;
@@ -19,25 +20,39 @@ const SingleProject = ({project}) => {
     }}
     cover={
       <Carousel>
-      <Carousel.Item interval={1000}>
-        <img
+      <Carousel.Item interval={2000}>
+       <img
           className="d-block w-100"
           src={img1}
           alt="First slide"
-        />
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"/>
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
           src={img2}
           alt="Second slide"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
         />
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
           src={img3}
           alt="Third slide"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
         />
       </Carousel.Item>
     </Carousel>

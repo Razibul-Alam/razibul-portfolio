@@ -14,9 +14,9 @@ const SingleProject = ({project}) => {
     
     return (
         <Col>
-<Card className='custom-card'
+<Card className='custom-card h-100'
     style={{
-      width: 300,
+      width: "100%",
     }}
     cover={
       <Carousel>

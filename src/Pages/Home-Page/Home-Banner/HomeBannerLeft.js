@@ -5,6 +5,7 @@ import './HomeBanner.css'
 import ReactTypingEffect from 'react-typing-effect';
 import Particles from "react-tsparticles";
 import particles from './ParticleItem';
+import { HashLink } from 'react-router-hash-link';
 const HomeBannerLeft = () => {
     return (
         <div className="home-left p-3" > 
@@ -26,7 +27,9 @@ const HomeBannerLeft = () => {
                eraseDelay="2000"
                />
              </h3>
-             <Button class='banner-btn' style={{padding:'10px 40px'}} variant="outline-light">PORTFOLIO</Button>{' '} 
+             <Button class='banner-btn' style={{padding:'10px 40px'}} variant="outline-light">
+             <HashLink className='ms-3  text-decoration-none' to='#portfolio'>PORTFOLIO</HashLink>
+             </Button>{' '} 
        </div>
     );
 };

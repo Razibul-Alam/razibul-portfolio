@@ -3,8 +3,8 @@ import HomeMain from './Pages/Home-Page/HomeMain';
 import Header from './Pages/Header/Header';
 import ContactMain from './Pages/Contact/ContactMain';
 import AllProject from './Pages/Projects/AllProject';
-import IndividualDetails from './Pages/DetailsPage/IndividualDetails';
 import Blogs from './Pages/Blogs/Blogs';
+import ProjectDetails from './Pages/DetailsPage/ProjectDetails';
 function App() {
   return (
     <div>
@@ -17,7 +17,7 @@ function App() {
           <Route path='/projects' element={<AllProject/>}/>
           <Route path='/blog' element={<Blogs/>}/>
           {/* <Route path='/about' element={<About/>}/> */}
-          <Route path='/project/:number' element={<IndividualDetails/>}/>
+          <Route path='/project/:number' element={<ProjectDetails/>}/>
         </Routes>
       </Router>
       

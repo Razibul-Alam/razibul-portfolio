@@ -3,7 +3,7 @@
         "id":1,"title":"Car-Point",
         "category":"fullstack",
         "live":"https://car-point-ce535.web.app",
-        "img1":"https://i.ibb.co/SrFnCXs/car-point-i.png",
+        "img1":"https://i.ibb.co/jvF2wGz/car-point-mock.png",
         "img2":"https://i.ibb.co/28KStCy/car-point-ii.png",
         "img3":"https://i.ibb.co/SrFnCXs/car-point-i.png",
         "code":"https://github.com/Razibul-Alam/Car-Point-client-side",
@@ -12,6 +12,9 @@
             "Must be loggedin before buying a car",
             "Users can buy car from the website",
             "An admin can add,remove and update item"
+        ],
+        "technology":[
+            "React","Node","Express","Mongodb","Firebase"
         ]
 
     },
@@ -19,7 +22,7 @@
         "id":2,"title":"Travel-Adventure",
         "category":"fullstack",
         "live":"https://tavel-adventure.web.app",
-        "img1":"https://i.ibb.co/mSvy02W/Screenshot-2021-11-30-at-08-19-27-Travel-Adventure.png",
+        "img1":"https://i.ibb.co/Vm7MrTg/travel-mock.png",
         "img2":"https://i.ibb.co/5rx5Bss/travel-ad-ii.png",
         "img3":"https://i.ibb.co/mSvy02W/Screenshot-2021-11-30-at-08-19-27-Travel-Adventure.png",
         "code":"https://github.com/Razibul-Alam/Travel-Adventure-client-side",
@@ -27,6 +30,9 @@
             "Travel-Adventure is a tour related website","Users can book ticket from the website",
             "Must be loggedin before booking a ticket. Click book then can login from login page.",
             "An admin can add,remove and update package"
+        ],
+        "technology":[
+            "React","Node","Express","Mongodb","Firebase"
         ]
 
     },
@@ -34,7 +40,7 @@
         "id":3,"title":"Store-Management",
         "category":"fullstack",
         "live":"https://smart-fluidtech.web.app",
-        "img1":"https://i.ibb.co/g6M5mxk/smart-i.png",
+        "img1":"https://i.ibb.co/L5m9PT7/smart-mock.png",
         "img2":"https://i.ibb.co/YfqSqHZ/Smart-Fluidtech-ii.png",
         "img3":"https://i.ibb.co/g6M5mxk/smart-i.png",
         "code":"https://github.com/Razibul-Alam/smart-fluidtech",
@@ -43,14 +49,36 @@
             "This is a store management application","Users can see all items of the store",
             "An admin can add,remove and update item",
             "When user will deliver item it will be removed from item list"
+        ],
+        "technology":[
+            "React","Node","Express","Mongodb","Firebase"
         ]
 
     },
     {
-        "id":4,"title":"Honda Showroom",
+        "id":4,"title":"Jobs4You (Team)",
+        "category":"fullstack",
+        "live":"https://jobs4you-a95fe.web.app/",
+        "img1":"https://i.ibb.co/wRwkDg2/jobs4-mock.png",
+        "img2":"https://i.ibb.co/t8W02cz/jobs4u-1.png",
+        "img3":"https://i.ibb.co/wRwkDg2/jobs4-mock.png",
+        "code":"https://github.com/Razibul-Alam/Jobs4You_Front",
+       
+        "features":[
+            "This is a store management application","Users can see all items of the store",
+            "An admin can add,remove and update item",
+            "When user will deliver item it will be removed from item list"
+        ],
+        "technology":[
+            "React","Node","Express","Mongodb","Redux","Firebase"
+        ]
+
+    },
+    {
+        "id":5,"title":"Honda Showroom",
         "category":"frontend",
         "live":"https://honda-cbr-bootstrap-raju.netlify.app/",
-        "img1":"https://i.ibb.co/RTp1qp4/Honda-CBR-i.png",
+        "img1":"https://i.ibb.co/pn6CVLS/cbr-honda-mock.png",
         "img2":"https://i.ibb.co/k1d6rWG/Honda-CBR-ii.png",
         "img3":"https://i.ibb.co/RTp1qp4/Honda-CBR-i.png",
         "code":"https://github.com/Razibul-Alam/Honda-Showroom",
@@ -58,44 +86,17 @@
         "features":[
             "This is a Motor bike showroom static application","In this application HTML,CSS and bootstrap applied only.",
             "Where bootstrap card, carouisel and progressbar i have used"
+        ],
+        "technology":[
+            "Html","Css","Bootstrap"
         ]
 
     },
     {
-        "id":5,"title":"Team Genius",
+        "id":6,"title":"MOVIE STATION",
         "category":"frontend",
-        "live":"https://team-genius.netlify.app/",
-        "img1":"https://i.ibb.co/dbkMxJP/Honda-CBR.png",
-        "img2":"https://i.ibb.co/yhjqZ0s/Team-Genius2.png",
-        "img3":"https://i.ibb.co/k5rg5xK/Screenshot-2021-11-30-at-08-21-58-Car-Point.png",
-        "code":"https://github.com/Razibul-Alam/Team-Genius",
-       
-        "features":[
-            "This is a developer hiring react application","Users can hire many developers",
-            "Also users can see their budget and cost"
-        ]
-
-    },
-    {
-        "id":6,"title":"Online Library",
-        "category":"frontend",
-        "live":"https://javascript-book-archive.netlify.app/",
-        "img1":"https://i.ibb.co/882xwWy/Book-Archive.png",
-        "img2":"https://i.ibb.co/Tm0mXhJ/Screenshot-2021-11-30-at-08-20-41-Smart-Fluidtech.png",
-        "img3":"https://i.ibb.co/k5rg5xK/Screenshot-2021-11-30-at-08-21-58-Car-Point.png",
-        "code":"https://github.com/Razibul-Alam/Book-Archive",
-       
-        "features":[
-            "This is an online library based react application","Users can search any book name in the search box",
-            "Also user can add any book to favorite list"
-        ]
-
-    },
-    {
-        "id":8,"title":"MOVIE STATION",
-        "category":"frontend",
-        "live":"https://javascript-book-archive.netlify.app/",
-        "img1":"https://i.ibb.co/zbg5kZK/movie-app-f.png",
+        "live":"https://movie-station.netlify.app/",
+        "img1":"https://i.ibb.co/Gd3gc0m/movie-station-1.png",
         "img2":"https://i.ibb.co/4TQxghb/movieapp-ii.png.png",
         "img3":"https://i.ibb.co/zbg5kZK/movie-app-f.png",
         "code":"https://github.com/Razibul-Alam/Book-Archive",
@@ -103,9 +104,49 @@
         "features":[
             "This is an online library based react application","Users can search any book name in the search box",
             "Also user can add any book to favorite list"
+        ],
+        "technology":[
+            "React","React-Bootstrap","React-Router"
         ]
 
     },
+    {
+        "id":7,"title":"Team Genius",
+        "category":"frontend",
+        "live":"https://team-genius.netlify.app/",
+        "img1":"https://i.ibb.co/JFCbQ7C/team-ge-1.png",
+        "img2":"https://i.ibb.co/cDgrkXj/team-g-3.png",
+        "img3":"https://i.ibb.co/cDgrkXj/team-g-3.png",
+        "code":"https://github.com/Razibul-Alam/Team-Genius",
+       
+        "features":[
+            "This is a developer hiring react application","Users can hire many developers",
+            "Also users can see their budget and cost"
+        ],
+        "technology":[
+            "react","Bootstrap","Css"
+        ]
+
+    },
+    {
+        "id":8,"title":"Online Library",
+        "category":"frontend",
+        "live":"https://javascript-book-archive.netlify.app/",
+        "img1":"https://i.ibb.co/cDgrkXj/team-g-3.png",
+        "img2":"https://i.ibb.co/cDgrkXj/team-g-3.png",
+        "img3":"https://i.ibb.co/cDgrkXj/team-g-3.png",
+        "code":"https://github.com/Razibul-Alam/Book-Archive",
+       
+        "features":[
+            "This is an online library based react application","Users can search any book name in the search box",
+            "Also user can add any book to favorite list"
+        ],
+        "technology":[
+            "Html","Css","Bootstrap","Javascript"
+        ]
+
+    },
+   
     {
         "id":9,"title":"Bill management",
         "category":"visualization",
@@ -118,6 +159,27 @@
         "features":[
             "This is an online library based react application","Users can search any book name in the search box",
             "Also user can add any book to favorite list"
+        ],
+        "technology":[
+            "React","Node","Express","Mongodb"
+        ]
+
+    },
+    {
+        "id":10,"title":"Delivery Schedule",
+        "category":"visualization",
+        "live":"https://delivery-schedule-graph.netlify.app/",
+        "img1":"https://i.ibb.co/RD28LbT/deloivery-sch-1.png",
+        "img2":"https://i.ibb.co/JkrTthM/delivery-sch-3.png",
+        "img3":"https://i.ibb.co/RD28LbT/deloivery-sch-1.png",
+        "code":"https://github.com/Razibul-Alam/Mealful_Assignment",
+       
+        "features":[
+            "This is an online library based react application","Users can search any book name in the search box",
+            "Also user can add any book to favorite list"
+        ],
+        "technology":[
+            "React","React-Bootstrap","Chart.js"
         ]
 
     }

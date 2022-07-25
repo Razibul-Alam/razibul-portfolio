@@ -2,25 +2,24 @@ import React, { useEffect, useState } from 'react';
 import SingleProject from './SingleProject';
 import { Card } from 'antd';
 import { Row } from 'react-bootstrap';
-import StyleCard from './StyleCard';
 
 const tabListNoTitle = [
     {
-      key: 'Design',
-      tab: 'Design',
+      key: 'Frontend',
+      tab: 'Frontend',
     },
     {
       key: 'FullStack',
       tab: 'FullStack',
     },
     {
-      key: 'All',
-      tab: 'All',
+      key: 'Visualization',
+      tab: 'Vizualization',
     }
   ];
 
 const AllProject = () => {
-    const [activeTabKey2, setActiveTabKey2] = useState('All');
+    const [activeTabKey2, setActiveTabKey2] = useState('Fullstack');
     const onTab2Change = (key) => {
       setActiveTabKey2(key);
     };
@@ -30,26 +29,8 @@ const AllProject = () => {
         .then(res=>res.json())
         .then(data=>setProjects(data))
           },[])
-          console.log(projects)
-
-          const contentListNoTitle = {
-            All:<>
-            <Row sx={4} className='g-4'>
-            {projects.map(project=><SingleProject project={project}/>)}
-            </Row>
-            </>
-            ,
-            Design:<>
-            <Row sx={4}>
-            {projects.slice(3,6).map(project=><SingleProject project={project}/>)}
-            </Row>
-            </> ,
-            FullStack:<>
-            <Row sx={4}>
-            {projects.slice(0,3).map(project=><SingleProject project={project}/>)}
-            </Row>
-            </>,
-          };
+          // filter projects
+          const filteredProject=projects.filter(project=>project.category==activeTabKey2.toLowerCase())
     return (
         <>
         <div className='my-5' id='portfolio'>
@@ -62,12 +43,13 @@ const AllProject = () => {
             }}
             tabList={tabListNoTitle}
             activeTabKey={activeTabKey2}
-            tabBarExtraContent={<a href="#">More</a>}
             onTabChange={(key) => {
               onTab2Change(key);
             }}
           >
-            {contentListNoTitle[activeTabKey2]}
+            <Row xs={12} md={2} className='g-4'>
+             {filteredProject?.map(project=><SingleProject project={project}/>)}
+          </Row>
           </Card>
         </>
     );

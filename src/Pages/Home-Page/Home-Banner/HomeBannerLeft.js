@@ -26,7 +26,7 @@ const HomeBannerLeft = () => {
                eraseDelay="2000"
                />
              </h3>
-               <Button variant="outline-light" className='home-left-aboutmme-btn' size="lg"><Link to="/projects" style={{ textDecoration: 'none', color: '' }} className="">Projects</Link></Button>  
+             <Button class='banner-btn' style={{padding:'10px 40px'}} variant="outline-light">PORTFOLIO</Button>{' '} 
        </div>
     );
 };

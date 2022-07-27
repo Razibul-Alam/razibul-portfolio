@@ -7,10 +7,10 @@ import {
   } from 'react-bootstrap';
 const Footer = () => {
     return (
-        <Container className="footer" fluid={true}>
+        <Container className="footer py-4" fluid={true}>
       <Row >
         <Col xl={12}>
-        Copyright © 2021-{(new Date().getFullYear())} <strong>Md Razibul</strong>
+        All rights reserve <strong>Md Razibul</strong>
         </Col>
       </Row>
     </Container>
